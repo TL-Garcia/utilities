@@ -1,0 +1,6 @@
+#!/bin/sh
+
+file_path=$(date '+%d_%m_%Y_%H_%M_%S')_screenshot.png
+
+import "$HOME/Pictures/screenshots/$file_path"
+xclip -selection clipboard -target image/png -i < $(file_path)
