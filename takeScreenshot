@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DATE=$(date +%d%m%y%H%M%S)
+
+import "$HOME"/Pictures/screenshots/screenshot_"$DATE".jpg

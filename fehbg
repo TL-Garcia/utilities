@@ -2,4 +2,4 @@
 
 BG_DIR="$HOME/Pictures/wallpapers"
 
-feh --bg-scale $BG_DIR/planets.jpg
+feh --bg-scale $BG_DIR/current.png
